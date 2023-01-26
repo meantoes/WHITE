@@ -1,0 +1,49 @@
+.catalog {
+    margin-top: 10%;
+    padding-top: 10%;
+}
+
+.container-3 {
+    display: flex;
+    flex-direction: column;
+}
+
+.h1-3 {
+    font-size: 9vw;
+    padding-left: 15%;
+    margin-bottom: 3%;
+    color: rgb(92, 89, 89);
+}
+
+.last-grid {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 3vw;
+}
+
+.last-grid-text {
+    font-size: 1.5vw;
+}
+
+.button-4 {
+    padding: 1.5vw 3vw;
+    font-size: 1.2vw;
+    border: 1px solid rgb(92, 89, 89);
+    background-color: rgba(255, 255, 255, 0.863);
+    transition: all 0.15s;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 900;
+    color:rgb(92, 89, 89) ;
+}
+
+.button-4:hover {
+    border: 1px solid transparent;
+    box-shadow: 2px 2px 5px rgba(92, 89, 89, 0.235);
+    cursor: pointer;
+}
+
+.button-4:active {
+    box-shadow: 1px 1px 5px rgba(92, 89, 89, 0.031);
+}

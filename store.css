@@ -1,0 +1,28 @@
+.store {
+    display: flex;
+    margin-left: 20%;
+    margin-top: 10%;
+    justify-content: space-between;
+    padding-left: 5%;
+    color: rgb(92, 89, 89);
+}
+
+.texts-store {
+    display: flex;
+    flex-direction: column;
+    align-self: start;
+    white-space: nowrap;
+    padding-right: 10%;
+    padding-bottom: 7%;
+}
+
+.h1-2 {
+    font-size: 9vw;
+    padding-bottom: 2vw;
+}
+
+.address, .phonen, .social-media {
+    font-size: 1.7vw;
+    margin-bottom: 4vw;
+    line-height: 3vw;
+}

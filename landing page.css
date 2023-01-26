@@ -1,0 +1,106 @@
+.landing-page {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    color: rgb(92, 89, 89);
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    vertical-align: bottom;
+    font-size: 1.2vw;
+    font-weight: 900;
+
+    margin-top: 8%;
+    margin-bottom: 8%;
+}
+
+.satu {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    justify-items: end;
+    text-align: right;
+    row-gap: 23%;
+
+    margin-right: 22%;
+    white-space: nowrap;
+}
+
+.atas {
+    margin-top: 45%;
+}
+
+.bawah {
+    align-self: flex-end;
+}
+
+.button-1 {
+    padding: 1.5vw 4vw;
+    font-size: 1.2vw;
+    border: 1px solid rgb(92, 89, 89);
+    background-color: white;
+    margin-bottom: 2%;
+    transition: all 0.15s;
+    color: rgb(92, 89, 89);
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 900;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(64, 63, 63);
+}
+
+.dua {
+    align-items: flex-end;
+    justify-content: center;
+    height: 50%;
+    position: relative;
+}
+
+.brand {
+    position: absolute;
+    font-size: 9vw;
+    top: 40%;
+    right: -13vw;
+    font-weight: 700;
+    color: rgb(92, 89, 89);
+    line-height: 7vw;
+}
+
+.tiga {
+    vertical-align: text-bottom;
+    align-self: flex-end;
+
+    margin-left: 20%;
+}
+
+.button-2 {
+    padding: 1.5vw 4vw;
+    font-size: 1.2vw;
+    border: 1px solid rgb(92, 89, 89);
+    background-color: white;
+    align-items: center;
+    transition: all 0.15s;
+    color: rgb(92, 89, 89);
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 900;
+    margin-top: 20%;
+}
+
+a {
+    color: rgb(92, 89, 89);
+}
+
+.button-2:hover, .button-1:hover {
+    border: 1px solid transparent;
+    box-shadow: 2px 2px 5px rgba(92, 89, 89, 0.235);
+    cursor: pointer;
+}
+
+.button-1:active, .button-2:active {
+    box-shadow: 1px 1px 5px rgba(92, 89, 89, 0.031);
+}

@@ -1,0 +1,35 @@
+.credit {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 20%;
+    margin-left: 10%; margin-right: 10%;
+    color: rgb(92, 89, 89);
+    padding-bottom: 3%;
+}
+
+.up {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5%;
+    line-height: 3vw;
+}
+
+.explore, .visit, .follow, .legal {
+    font-size: 1.5vw;
+    font-weight: 900;
+}
+
+.contentss {
+    font-weight: 400;
+    font-size: 1vw;
+}
+
+.bottom {
+    font-size: 1vw;
+    text-align: right;
+}
+
+.contentss:hover{
+    cursor: pointer;
+}

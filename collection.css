@@ -1,0 +1,36 @@
+.collections {
+    position: relative;
+    margin-top: 10%;
+}
+
+.title {
+    position: absolute;
+    font-size: 8vw;
+    left: 5%;
+    top: 16vw;
+    color: white;
+}
+
+.button-3 {
+    position: absolute;
+    bottom: 9vw;
+    left: 10%;
+    padding: 1vw 4vw;
+    font-size: 1vw;
+    border: 1px solid white;
+    background-color: rgba(92, 89, 89, 0.222);
+    color: white;
+    align-items: center;
+    transition: all 0.15s;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 900;
+}
+
+.button-3:hover {
+    cursor: pointer;
+    box-shadow: 2px 2px 5px rgba(255, 255, 255, 0.589);
+}
+
+.button-3:active {
+    box-shadow: 2px 2px 5px rgba(255, 255, 255, 0);
+}
